@@ -73,15 +73,20 @@ blockquote {
     letter-spacing: 2px;
 }
 
-#learn-more-section {
+#learn-more-section, footer {
     background: dimgray;
     color: white;
-    padding: 20px;
+    padding: 20px 20px;
     margin-bottom: 0;
 }
 
-#learn-more-section p a {
+#learn-more-section p a, footer p a {
     color: black;
     font-weight: bold;
     text-decoration: none;
+}
+
+footer{
+    padding-top: 0;
+    margin-top: -10px;
 }
