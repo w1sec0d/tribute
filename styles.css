@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: WhiteSmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+header {
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 40px auto;
+}
+
+figure {
+    background: white;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#img-div #image {
+    display: block;
+    filter: grayscale(80%);
+    max-width: 100%;
+    margin: 10px auto;
+    width: 90%;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
+#tribute-info ul {
+    margin-left: 1rem;
+    text-align: left;
+}
+
+#tribute-info li {
+    margin: 10px auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+#song-container {
+    margin-top: 20px;
+}
+
+#song-video {
+    max-width: 800px;
+    margin: 10px 20px;
+    width: 90%;
+}
+
+blockquote {
+    margin: 50px 0;
+    letter-spacing: 2px;
+}
+
+#learn-more-section {
+    background: dimgray;
+    color: white;
+    padding: 20px;
+}
+
+#learn-more-section a {
+    text-decoration: none;
+    color: black;
+}
